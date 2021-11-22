@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+
+    <form method="POST" action="ejercicio1 functions.php">
+        <fieldset>
+            <legend>Conversor de números</legend>
+            <p><label for="fname">Opción 1: Número concreto</label>
+            <input type="text" id="fname" name="fname"></p>
+            <p><label for="lname">Opción 2: Número aleatorio (0 - 2048)</label></p>
+            <P><input type="radio" id="alea" name="aleat">Sí
+            <input type="radio" id="lname" name="lname">No</P>
+            <p>Seleccione una conversión</p>
+            <select name="operador">
+            <p><option value="+">Dec a Bin</option>
+            <option value="-">Dec a Octal</option>
+            <option value="x">Dec a Hexa</option>
+            <option value="/">Bin a Hexa</option>
+            <option value="√">Octal a Dec</option>
+            <option value="n2">Hexa a Dec</option></select></p>
+        </fieldset>
+        <p><input type="submit" value="Resolver" name="resolver">
+            <input type="reset" value="Reset" name="reset"></p>
+    </form>
+
+
+</body>
+</html>

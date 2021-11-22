@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form method="POST" action="ejercicio3 functions.php">
+        <fieldset>
+            <legend>Ejercicio de Arrays</legend>
+            <fieldset>
+                <legend>Inicialización del Array</legend>
+                <p><label for="texto1">Entrada 1:</label>
+                <input type="text" id="texto1" name="array1[entrada1]"></p>
+                <p><label for="texto2">Entrada 2:</label>
+                <input type="text" id="texto2" name="array1[entrada2]"></p>
+                <p><label for="texto3">Entrada 3:</label>
+                <input type="text" id="texto3" name="array1[entrada3]"></p>
+                <p><label for="texto4">Entrada 4:</label>
+                <input type="text" id="texto4" name="array1[entrada4]"></p>
+                <p><label for="texto5">Entrada 5:</label>
+                <input type="text" id="texto5" name="array1[entrada5]"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Herramientas</legend>
+                <p><select name="herramienta">
+                    <option hidden selected>Selecciona una opción</option>
+                    <option value="prim">Quitar el primer elemento del array</option>
+                    <option value="ult">Quitar el último elemento del array</option>
+                    <option value="orde">Ordenar el array por sus claves en oprden inverso</option>
+                    <option value="divd">Divide el array en 2 fragmentos</option>
+                </select>
+            </fieldset>          
+        </fieldset>
+        <p><input type="submit" value="Enviar consulta" name="resolver">
+        <input type="reset" value="Reset" name="resolver"></p>
+    </form>
+
+</body>
+
+
+
+</html>
